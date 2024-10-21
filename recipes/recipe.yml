@@ -23,7 +23,7 @@ modules:
           - terra-release
           - starship
           - fish
-          - fd
+          - fd-find
           - ripgrep
           - bat
           - eza
