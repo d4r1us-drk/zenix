@@ -24,6 +24,7 @@ modules:
           - starship
           - fish
           - fd-find
+          - adw-gtk3-theme
           - ripgrep
           - bat
           - eza
