@@ -34,11 +34,47 @@ modules:
           - distrobox
           - cryfs
           - baobab
+          - btop
+          - wl-clipboard
+          - unrar
+
+          # proprietary stuff
+          - libheif-freeworld
+          - libheif-tools
+          - intel-media-driver
+          - mesa-va-drivers-freeworld
+          - gstreamer1-plugin-libav
+          - gstreamer1-plugins-bad-free-extras
+          - gstreamer1-plugins-bad-freeworld
+          - gstreamer1-plugins-ugly
+          - gstreamer1-vaapi
+          - ffmpeg
+          - ffmpeg-libs
+          - ffmpegthumbnailer
+          - pipewire-codec-aptx
+          - fdk-aac
+
       remove:
           # example: removing firefox (in favor of the flatpak)
           # "firefox" is the main package, "firefox-langpacks" is a dependency
+          - nvtop
           - firefox
           - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+          - fdk-aac-free
+          - ffmpeg-free
+          - mesa-va-drivers
+          - libavcodec-free  
+          - libavdevice-free
+          - libavfilter-free
+          - libavformat-free  
+          - libavutil-free  
+          - libpostproc-free  
+          - libswresample-free  
+          - libswscale-free 
+
+    - type: script
+      scripts:
+          - installrpmfusion.sh
 
     - type: default-flatpaks
       notify: false # Send notification after install/uninstall is finished (true/false)
