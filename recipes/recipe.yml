@@ -37,6 +37,7 @@ modules:
           - btop
           - wl-clipboard
           - unrar
+          - zoxide
 
       remove:
           # example: removing firefox (in favor of the flatpak)
