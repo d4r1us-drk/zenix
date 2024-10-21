@@ -70,11 +70,29 @@ modules:
               - org.mozilla.firefox
               - org.gnome.Loupe
               - org.gnome.Papers
+              - org.gnome.Showtime
+              - org.gnome.Boxes
+              - org.gnome.Calendar
+              - org.gnome.Characters
+              - org.gnome.Connections
+              - org.gnome.Contacts
+              - org.gnome.Decibels
+              - org.gnome.Logs
+              - org.gnome.Lollypop
+              - org.gnome.Maps
+              - org.gnome.NautilusPreviewer
+              - org.gnome.SimpleScan
+              - org.gnome.Snapshot
+              - org.gnome.SoundRecorder
+              - org.gnome.TextEditor
+              - org.gnome.Weather
+              - org.gnome.clocks
+              - org.gnome.font-viewer
+              - org.gnome.seahorse.Application
               - io.gitlab.adhami3310.Impression
               - com.mattjakeman.ExtensionManager
-              - org.gnome.Showtime
               - com.github.tchx84.Flatseal
-              # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
+
           # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
           # only normal flatpak applications are (like Floorp Lightning web browser in this example).
           # Installing different branches of the same Flatpak is not supported.
